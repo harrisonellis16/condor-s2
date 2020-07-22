@@ -1,0 +1,14 @@
+.body {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.body-left {
+    width: 50%;
+    text-align: center;
+}
+
+.body-right {
+    width: 50%;
+    text-align: center;
+}

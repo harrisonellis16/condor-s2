@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 
+
 class Header extends Component {
 
     state = {count: 0, greeting: "Your time:", interval: null};
@@ -10,6 +11,7 @@ class Header extends Component {
     render() {
         return (
             <div>{this.state.greeting} {this.state.count} </div>
+      
         )
     }
 }
