@@ -1,0 +1,52 @@
+.header{
+    background-color: #1c2127;
+    min-height: 30vh;
+    width: 100%;
+    display: flex; 
+    flex-flow: row nowrap;
+    text-align: center;
+    justify-content: top;
+    font-size: calc(20px + 2vmin);
+    
+}
+
+
+
+.logo{
+   width: 33%;
+   text-align: left;
+   padding-left: 20px;
+   padding-top: 20px;
+}
+
+
+.title{
+    width: 33%;
+    position: relative;
+    text-align: center;
+    font-size: 80px;
+    color: aliceblue;
+    font-weight: bold;
+    
+
+
+}
+
+.timer{
+    width: 33%;
+    height: 100%;
+    margin: auto;
+    text-align: right;
+    padding-right: 20px;
+    word-wrap: break-word;
+    color: aliceblue;
+}
+
+
+
+
+
+img {
+    height: 25vh;
+    object-fit: cover;
+  } 
