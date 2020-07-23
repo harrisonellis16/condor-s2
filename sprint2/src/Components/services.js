@@ -13,4 +13,3 @@ function newRandom() {
     return randomNum;
 }
 
-

@@ -1,24 +1,47 @@
 .body {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
+    margin-top: 40px
 }
 
 .body-left {
     width: 50%;
     text-align: center;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .body-right {
     width: 50%;
     text-align: center;
+    height: 100%;
+    margin: auto;
 }
 
-.penny {
-    width: 33%;
-    text-align: left;
+.coin {
+    width: 50%;
+    margin-bottom: 35px;
+    text-align: center;
+    /*text-align: left;*/
 }
 
 img {
-    height: 25vh;
+    height: 17vh;
+    
     object-fit: cover;
+}
+
+.reset {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.increment {
+    margin-right: 5px;
+}
+
+.decrement {
+    margin-left: 5px;
+    font-size: 18px;
 }

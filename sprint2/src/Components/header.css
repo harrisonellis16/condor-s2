@@ -1,6 +1,6 @@
 .header{
     background-color: #1c2127;
-    min-height: 30vh;
+    min-height: 20vh;
     width: 100%;
     display: flex; 
     flex-flow: row nowrap;
@@ -16,7 +16,7 @@
    width: 33%;
    text-align: left;
    padding-left: 20px;
-   padding-top: 20px;
+   padding-top: 10px;
 }
 
 
@@ -24,12 +24,11 @@
     width: 33%;
     position: relative;
     text-align: center;
-    font-size: 80px;
+    font-size: calc(60px + 2vmin);
     color: aliceblue;
     font-weight: bold;
-    
-
-
+    height: 100%;
+    margin: auto;
 }
 
 .timer{
@@ -41,10 +40,6 @@
     word-wrap: break-word;
     color: aliceblue;
 }
-
-
-
-
 
 img {
     height: 25vh;
