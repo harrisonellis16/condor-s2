@@ -78,10 +78,18 @@ class Body extends Component {
             <div className="body">
                 <div className="body-left">
                     <button onClick={this.incrementPennies} title="Penny">+</button>
+                    <button onClick={this.decreasePennies} label="Penny">-</button>
+
                     <button onClick={this.incrementNickels} title="Nickel">+</button>
+                    <button onClick={this.decreaseNickels} title="Nickel">-</button>
+
                     <button onClick={this.incrementDimes} title="Dime">+</button>
+                    <button onClick={this.decreaseDimes} title="Dime">-</button>
+
                     <button onClick={this.incrementQuarters} title="Quarter">+</button>
-                    <button type="submit"  onClick={this.refreshPage}>Refresh Button</button>
+                    <button onClick={this.decreaseQuarters} title="Quarter">-</button>
+
+                    <button type="submit"  onClick={this.refreshPage}>Reset</button>
                 </div>
                 <div className="body-right">
                     <div>
