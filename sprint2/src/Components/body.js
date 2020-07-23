@@ -77,17 +77,21 @@ class Body extends Component {
         return (
             <div className="body">
                 <div className="body-left">
+                    <div className="penny"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/US_One_Cent_Obv.png/1200px-US_One_Cent_Obv.png"/></div>
                     <button onClick={this.incrementPennies} title="Penny">+</button>
-                    <button onClick={this.decreasePennies} label="Penny">-</button>
+                    <button disabled={this.state.pennies == 0} onClick={this.decreasePennies} label="Penny">-</button>
 
+                    <div className="nickel"><img src="http://www.pngmart.com/files/7/Nickel-PNG-Clipart.png"/></div>
                     <button onClick={this.incrementNickels} title="Nickel">+</button>
-                    <button onClick={this.decreaseNickels} title="Nickel">-</button>
+                    <button disabled={this.state.nickels == 0} onClick={this.decreaseNickels} title="Nickel">-</button>
 
+                    <div className="dime"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/2017-D_Roosevelt_dime_obverse_transparent.png/220px-2017-D_Roosevelt_dime_obverse_transparent.png"/></div>
                     <button onClick={this.incrementDimes} title="Dime">+</button>
-                    <button onClick={this.decreaseDimes} title="Dime">-</button>
+                    <button disabled={this.state.dimes == 0} onClick={this.decreaseDimes} title="Dime">-</button>
 
+                    <div className="quarter"><img src=""/></div>
                     <button onClick={this.incrementQuarters} title="Quarter">+</button>
-                    <button onClick={this.decreaseQuarters} title="Quarter">-</button>
+                    <button disabled={this.state.quarters == 0} onClick={this.decreaseQuarters} title="Quarter">-</button>
 
                     <button type="submit"  onClick={this.refreshPage}>Reset</button>
                 </div>

@@ -12,3 +12,13 @@
     width: 50%;
     text-align: center;
 }
+
+.penny {
+    width: 33%;
+    text-align: left;
+}
+
+img {
+    height: 25vh;
+    object-fit: cover;
+}
